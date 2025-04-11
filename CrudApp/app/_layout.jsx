@@ -7,7 +7,8 @@ export default function RootLayout() {
       <ThemeProvider>
         <SafeAreaProvider>
             <Stack>
-              <Stack.Screen name='index' options={{headerShown: false}}/>
+              <Stack.Screen name='index' options={{headerShow:false}} />
+              <Stack.Screen name='todos/[id]' options={{headerShow:false}}  />
             </Stack>
         </SafeAreaProvider>
       </ThemeProvider>
